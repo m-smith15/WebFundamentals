@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+        <h3>Registration Form</h3>
+        <div>
+            <label>First Name: *</label>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <label>Last Name: *</label>
+            <input type="text" name="last_name">
+        </div>
+        <div>
+            <label>Email Address: *</label>
+            <input type="text" name="email">
+        </div>
+        <div>
+            <label>Password: *</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label>Confirm Password: *</label>
+            <input type="password" name="password_confirm">
+        </div>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="date">
+        </div>
+        <div>
+            <div>
+                <label>Gender Identity:</label>
+            </div>
+            <input type="radio" name="gender" value="Male" id="Male">
+                <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female" id="Female">
+                <label for="Female">female</label>
+            <input type="radio" name="gender" value="non" id="non">
+                <label for="non">Non-Binary</label>
+            <input type="radio" name="gender" value="decline" id="decline">
+                <label for="decline">I prefer not to answer</label>
+        </div>
+        <div>
+        <div>
+            <label>A short description about myself:</label>
+        </div>
+            <textarea name="bio" cols="20" rows="3"></textarea>
+        </div>
+        <div>
+            <label>Favorite Language:</label>
+            <select name="language">
+                <option>French</option>
+                <option>German</option>
+                <option>Arabic</option>
+                <option>Swedish</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="email_signup" checked>
+            <label>Yes, I would like to get periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Sign up!">
+        </div>
+        <div>
+            * Indicates a required field
+        </div>
+</body>
+</html>
